@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Eat Healthy</title>
+<style>
+    body {
+      padding: 25px;
+      background-color: white;
+      color: black;
+      font-size: 25px;
+    }
+
+    .dark-mode {
+      background-color: black;
+      color: white;
+    }
+
+    .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffae00;
+  color: white;
+}
+
+    </style>
+</head>
+<body>
+
+    <button onclick="myFunction()">Light Dark Mode Button</button>
+    <h1 style="color:rgb(0, 255, 229);text-transform:uppercase;"><p align=center>
+    <img src="Pic1.jpeg" style="float:left;width:100px;height:100px;">
+    <img src="Pic1.jpeg" style="float:right;width:100px;height:100px;">
+    Eat Healthy</p></h1>
+    
+    <ul>
+        <li>Do not get thirsty</li>
+        <li>Get active and be a healthy weight</li>
+        <li>Eat less salt</li>
+        <li>Cut down on saturated fat and sugar</li>
+     </ul>
+
+<h2 style="color: #6a00ff">Fill the Form and get your Free Diet Chart</h2>
+<form action="https://coder-smart574.github.io/Diet-Chart/">
+      <label for="First Name">First Name:</label><br>
+      <input type="text" id="fname" name="fname" value=""><br>
+      <label for="Last Name">Last Name:</label><br>
+      <input type="text" id="lname" name="lname" value=""><br><br>
+      <input type="submit" value="Submit">
+   </form>
+
+   <h2 style="color: #ff00d4">Will you also follow these steps ?</h2>
+   <h2 style="color: #ff00d4">When you fill the form below a document will be downloaded as Proof</h2>
+<form action="Proof.docx">
+      <label for="Name">Name:</label><br>
+      <input type="text" id="name" name="name" value=""><br>
+      <label for="Yes No Type box">Yes No Type box:</label><br>
+      <input type="text" id="Yes No Type box" name="Yes No Type box" value=""><br><br>
+      <input type="submit" value="Submit">
+   </form>
+
+<script>
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    
+</body>
+</html>
